@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<title> formularz </title>
+	<meta charset="utf-8" />
+	<script src="form_check.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css" title="Arkusz stylów CSS">
+</head>
+
+<body>
+	
+
+
+	<div class = "styl2"  id="podsumowanie" ></div>
+
+	<br>
+	<p><div class = 'naglowki' >Formularz rejestracyjny:</div> <p>
+	<p><input  class = 'stylinput' type="text"  id = "kolor1" value="Imię" onFocus="this.value='';" onfocusout="sprawdzTekst(this, 'wynik')" ></p>
+	 <div class = "arkusz" id="wynik"></div>
+
+
+	<p><input class = 'stylinput' type="text" id = "kolor2" value="Nazwisko" onFocus="this.value='';" onfocusout="sprawdzTekst2(this, 'wynik2')"> </p>
+	<div class = "arkusz" id="wynik2"></div>
+
+	<p><input class = 'stylinput' type="text" id = "kolor3" value="Adres e-mail" onFocus="this.value='';" onfocusout="sprawdzEmail(this, 'wynik3')"> </p>
+	<div class = "arkusz"  id="wynik3"></div>
+
+	<p><input class = 'stylinput' type="date"  id = "kolor4" onfocusout="sprawdzDate(this, 'wynik4')"> </p>
+	<div class = "arkusz"  id="wynik4"></div>
+
+	<p> <div class = 'naglowki' >Hasło:</div> <p>
+	<p> <input class = 'stylinput' type="password" id = "haslo1"  onfocusout="sprawdzHaslo(this, 'wynik5')"> </p>
+	<div class = "arkusz"  id="wynik5"></div>
+	<p> <div class = 'naglowki' >Powtórz hasło: </div> <p>
+	<p> <input class = 'stylinput' type="password" id = "haslo2"  onfocusout="sprawdzHaslo2()"></p>
+	<div class = "arkusz"  id="wynik6"></div>
+
+	<p>Opis: </p> <p><textarea class = 'stylinput' rows="8" cols="21"  type="tekst" id = "kolor5"  onfocusout="sprawdzDlugosc(this, 'wynik7')"> </textarea> </p>
+	<div class = "arkusz"  id="wynik7"></div>
+
+	<input type="submit" value="Zarejestruj się!" onclick="podsumowanie()"/>
+</body>
+
+</html>

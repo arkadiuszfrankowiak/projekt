@@ -1,0 +1,60 @@
+.arkusz
+{
+	
+	color: red;
+	font-family: 'Lato', sans-serif;
+	font-size: 10px;
+	margin-left: center;
+	margin-right: center;
+	
+}
+
+.styl2
+{
+	
+	color: red;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	border-style: solid;
+	border-width: auto;
+	border-left: auto;
+	border-right: auto;
+	border-bottom: auto;
+	background: #fff;
+}
+
+body
+{
+
+margin-left:center;
+margin-right: center;
+text-align: center;
+
+background-image: url(idylla.jpg);
+}
+
+.stylinput
+{
+
+	 width:200px; /* ustawiamy szerokość formularza */
+        margin:0 auto; /* jeżeli nasz formularz ma ustawioną szerokość wyśrodkowujemy go */
+        background-color:#fff; /* dodajemy kolor tła naszemu formularzowi */
+        border:9px solid #ccc; /* dodajemy obramowanie o szerokości 2px */
+        border-radius:10px; /* zaokrąglamy tło naszego formularza */
+		padding:10px; /* dodajemy margines wewnątrz naszego formularza */
+        margin-top:2px;
+}
+
+.naglowki
+{
+	width:200px; /* ustawiamy szerokość formularza */
+        margin: auto; /* jeżeli nasz formularz ma ustawioną szerokość wyśrodkowujemy go */
+        background-color:#fff; /* dodajemy kolor tła naszemu formularzowi */
+        /* dodajemy obramowanie o szerokości 2px */
+        border-radius:10px; /* zaokrąglamy tło naszego formularza */
+		padding:5px; /* dodajemy margines wewnątrz naszego formularza */
+        margin-top:2px;
+        font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	
+}
